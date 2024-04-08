@@ -15,11 +15,11 @@ public class HelloStrutsAction extends ActionSupport {
 
 		dto = dao.select();
 
-		System.out.println(dto.getRsult());
+		System.out.println(dto.getResult());
 
-		result = dto.getRsult();
+		result = dto.getResult();
 
-		if (result.equals("MySQLと接続できます。")) {
+		if (result.equals("MySQL と接続できます。")) {
 			ret = SUCCESS;
 		} else {
 			ret = ERROR;

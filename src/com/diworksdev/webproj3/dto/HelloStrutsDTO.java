@@ -4,7 +4,7 @@ public class HelloStrutsDTO {
 
 	private String result;
 
-	public String getRsult() {
+	public String getResult() {
 		return result;
 	}
 
